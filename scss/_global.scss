@@ -31,6 +31,7 @@ a:hover {
   text-decoration: none;
 }
 
+*
 // CARD
 
 .card {
@@ -104,6 +105,7 @@ a:hover {
   }
 
   &-title {
+    margin: 0;
     font-size: 2.2rem;
     font-weight: 700;
     color: $white;
@@ -212,5 +214,13 @@ hr {
     &:hover {
       color: $cyan;
     }
+
+    i {
+      margin-top: 1rem;
+      font-size: 2rem;
+      padding-right: 0.5rem;
+    }
   }
+  
 }
+

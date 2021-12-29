@@ -36,12 +36,14 @@ a:hover {
   text-decoration: none;
 }
 
+*
 .card {
   position: relative;
   height: 100vh;
   width: 100vw;
 }
 
+*
 .card-container {
   width: 32.7rem;
   height: 54.6rem;
@@ -58,12 +60,14 @@ a:hover {
 }
 
 @media (min-width: 64em) {
-  .card-container {
+  *
+.card-container {
     width: 35.1rem;
     height: 59.7rem;
   }
 }
 
+*
 .card-img {
   position: relative;
   width: 27.7rem;
@@ -73,16 +77,19 @@ a:hover {
 }
 
 @media (min-width: 64em) {
-  .card-img {
+  *
+.card-img {
     width: 30.2rem;
     height: 30.2rem;
   }
 }
 
+*
 .card-img img {
   width: 100%;
 }
 
+*
 .card-img::before {
   content: "";
   position: absolute;
@@ -99,23 +106,28 @@ a:hover {
   transition: opacity 200ms ease-in-out;
 }
 
+*
 .card-img:hover::before {
   cursor: pointer;
   opacity: 1;
 }
 
+*
 .card-content {
   padding-top: 2.7rem;
   padding-bottom: 1rem;
 }
 
 @media (min-width: 64em) {
-  .card-content {
+  *
+.card-content {
     padding-top: 3rem;
   }
 }
 
+*
 .card-title {
+  margin: 0;
   font-size: 2.2rem;
   font-weight: 700;
   color: white;
@@ -124,11 +136,13 @@ a:hover {
   transition: color 200ms ease-in-out;
 }
 
+*
 .card-title:hover {
   cursor: pointer;
   color: #00fff7;
 }
 
+*
 .card-text {
   font-size: 1.6rem;
   line-height: 1.7;
@@ -136,11 +150,13 @@ a:hover {
 }
 
 @media (min-width: 64em) {
-  .card-text {
+  *
+.card-text {
     font-size: 1.8rem;
   }
 }
 
+*
 .card-inline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -150,6 +166,7 @@ a:hover {
           justify-content: space-between;
 }
 
+*
 .card-inline-eth {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,10 +179,12 @@ a:hover {
   color: #00fff7;
 }
 
+*
 .card-inline-eth img {
   margin-right: 0.5rem;
 }
 
+*
 .card-inline-day {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,10 +196,12 @@ a:hover {
   font-weight: 400;
 }
 
+*
 .card-inline img {
   margin-right: 0.5rem;
 }
 
+*
 .card-author {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,6 +212,7 @@ a:hover {
   padding-top: 1rem;
 }
 
+*
 .card-author-img {
   width: 3.5rem;
   height: 3.5rem;
@@ -198,10 +220,12 @@ a:hover {
   border-radius: 50%;
 }
 
+*
 .card-author-img img {
   width: 100%;
 }
 
+*
 .card-author-name {
   font-size: 1.5rem;
   margin-left: 1.5rem;
@@ -209,17 +233,20 @@ a:hover {
 }
 
 @media (min-width: 64em) {
-  .card-author-name {
+  *
+.card-author-name {
     font-size: 1.7rem;
   }
 }
 
+*
 .card-author-name > span {
   color: white;
   -webkit-transition: color 200ms ease-in-out;
   transition: color 200ms ease-in-out;
 }
 
+*
 .card-author-name > span:hover {
   cursor: pointer;
   color: #00fff7;
@@ -250,5 +277,11 @@ hr {
 
 .attribution a:hover {
   color: #00fff7;
+}
+
+.attribution a i {
+  margin-top: 1rem;
+  font-size: 2rem;
+  padding-right: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */
